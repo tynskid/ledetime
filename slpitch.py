@@ -5,8 +5,8 @@ import json
 
 import os
 import openai
-openai.api_key = "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"
 
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 
 
