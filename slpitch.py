@@ -4,12 +4,9 @@ import json
 
 
 import os
-import dotenv
 import openai
 
 
-import dotenv
-OPENAI_API_KEY = dotenv.get('OPENAI_API_KEY', default='fall back value')
 openai.api_key = os.getenv(OPENAI_API_KEY)
 
 
